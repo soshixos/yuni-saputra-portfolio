@@ -24,7 +24,6 @@ export const profile = {
   project: {
     name: 'LamaranKu',
     description: 'My job application tracker project.',
-    // Add the LamaranKu URL here to show the "View project" link.
-    url: '',
+    url: 'https://lamaranku-job-application-tracker.ai.studio',
   },
 }
