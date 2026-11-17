@@ -20,9 +20,10 @@ export default function Page() {
         <ContactSection />
       </main>
       <footer className="border-t">
-        <p className="mx-auto max-w-4xl px-6 py-6 text-sm text-muted-foreground">
-          {`© ${new Date().getFullYear()} ${profile.name}`}
-        </p>
+        <div className="mx-auto flex max-w-4xl flex-col gap-1 px-6 py-6 text-sm text-muted-foreground">
+          <p>{`© ${new Date().getFullYear()} ${profile.name}`}</p>
+          <p className="text-xs">Built, run and deployed from the terminal (Vercel CLI).</p>
+        </div>
       </footer>
     </>
   )
